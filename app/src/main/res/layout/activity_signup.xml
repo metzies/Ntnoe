@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/near_white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <ImageView
+            android:id="@+id/noe_signup"
+            android:layout_width="match_parent"
+            android:layout_height="180sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/etoile" />
+
+        <EditText
+            android:id="@+id/signup_login_nompre"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="10sp"
+            android:ems="10"
+            android:hint="@string/signup_login_nompre"
+            android:lines="1"
+            android:digits="_,qwertzuiopasdfghjklyxcvbnm,0123456789"
+            android:inputType="textNoSuggestions"/>
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="0.0sp"
+            android:ems="10"
+            android:hint="@string/signup_password"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profoupas"
+            android:onClick="checkBoxed"
+            android:textColor="@color/grey" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="26.0dip"
+            android:background="@drawable/buttons"
+            android:onClick="sendMessage"
+            android:text="@string/signup_next"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</ScrollView>

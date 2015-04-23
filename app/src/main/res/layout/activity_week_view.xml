@@ -1,0 +1,144 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/titler_strip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:baselineAligned="true"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_monday"
+            android:textColor="@color/near_white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_tuesday"
+            android:textColor="@color/near_white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_wednesday"
+            android:textColor="@color/near_white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_thursday"
+            android:textColor="@color/near_white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_friday"
+            android:textColor="@color/near_white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/week_layouts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/monday_layout"
+                layout="@layout/day_scrollview" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/tuesday_layout"
+                layout="@layout/day_scrollview" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/wednesday_layout"
+                layout="@layout/day_scrollview" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/thursday_layout"
+                layout="@layout/day_scrollview" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/friday_layout"
+                layout="@layout/day_scrollview" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

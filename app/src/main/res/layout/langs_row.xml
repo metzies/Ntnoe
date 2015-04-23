@@ -1,0 +1,31 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Spinner
+        android:id="@+id/spinner_langs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/spinner_langs" />
+
+    <Spinner
+        android:id="@+id/spinner_langs_crenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/spinner_langs_crenos" />
+
+    <Spinner
+        android:id="@+id/spinner_sequence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/spinner_sequences" />
+
+</TableRow>

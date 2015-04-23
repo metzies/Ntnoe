@@ -1,0 +1,56 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MyAppActionBarTheme" parent="android:Theme.Holo">
+        <item name="android:popupMenuStyle">@style/MyApp.PopupMenu</item>
+        <item name="android:actionBarStyle">@style/MyApp.ActionBar</item>
+        <item name="android:icon">@drawable/daily_agenda</item>
+    </style>
+
+    <style name="AboutActionBarTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/About.ActionBar</item>
+        <item name="android:icon">@drawable/about</item>
+        <item name="android:textColor">@color/darker_grey</item>
+    </style>
+
+    <style name="SeventActionBarTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Sevent.ActionBar</item>
+        <item name="android:icon">@drawable/sevent</item>
+    </style>
+
+    <!-- The beef: background color for Action Bar overflow menu -->
+    <style name="MyApp.PopupMenu" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/light_blue</item>
+    </style>
+
+    <style name="About.ActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid">
+
+        <!-- Blue background color & black bottom border -->
+        <item name="android:background">@color/light_blue</item>
+    </style>
+
+    <style name="Sevent.ActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/light_blue</item>
+        <item name="android:titleTextStyle">@style/Sevent.TitleText</item>
+    </style>
+
+    <style name="Sevent.TitleText" parent="android:Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:textColor">@color/near_white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Bonus: if you want to style whole Action Bar, not just the menu -->
+    <style name="MyApp.ActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid">
+
+        <!-- Blue background color & black bottom border -->
+        <item name="android:background">@drawable/overflow</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Holo.Light.Dialog"></style>
+
+    <style name="MonthActionBarTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/MyApp.ActionBar</item>
+        <item name="android:popupMenuStyle">@style/MyApp.PopupMenu</item>
+        <item name="android:icon">@drawable/korganizer</item>
+    </style>
+
+</resources>

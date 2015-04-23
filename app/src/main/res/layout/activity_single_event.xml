@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/sevent_list_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:text="@string/sevent_list_description"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/sevent_list_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sevent_list_description"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+         <TextView
+             android:id="@+id/sevent_description"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/sevent_list_ll"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="22dp"
+             android:gravity="center"
+             android:text="@string/add_sevent"
+             android:textColor="@color/grey"
+             android:textSize="16sp" />
+        
+        <EditText
+            android:id="@+id/sevent_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sevent_description"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="16sp"
+            android:layout_marginRight="16sp"
+            android:layout_marginTop="8sp"
+            android:hint="@string/sevent_title" />
+
+        <EditText
+            android:id="@+id/sevent_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sevent_title"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="16sp"
+            android:layout_marginRight="16sp"
+            android:layout_marginTop="4sp"
+            android:hint="@string/sevent_location" />
+
+        <LinearLayout
+            android:id="@+id/tributton_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sevent_location"
+            android:layout_marginBottom="4sp"
+            android:layout_marginLeft="16sp"
+            android:layout_marginRight="16sp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/sevent_time_start_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="2sp"
+                android:layout_weight="1"
+                android:background="@drawable/borderbuttons"
+                android:onClick="showSTimePickerDialog"
+                android:text="@string/sevent_time_start"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/sevent_time_end_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2sp"
+                android:layout_marginRight="2sp"
+                android:layout_weight="1"
+                android:background="@drawable/borderbuttons"
+                android:onClick="showETimePickerDialog"
+                android:text="@string/sevent_time_end"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/sevent_date_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2sp"
+                android:layout_weight="1"
+                android:background="@drawable/borderbuttons"
+                android:onClick="showDatePickerDialog"
+                android:text="@string/sevent_date"
+                android:textColor="@color/light_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_sevent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tributton_ll"
+            android:layout_gravity="right"
+            android:layout_marginBottom="16sp"
+            android:layout_marginLeft="16sp"
+            android:layout_marginRight="16sp"
+            android:layout_marginTop="0sp"
+            android:background="@drawable/buttons"
+            android:onClick="sendMessage"
+            android:text="@string/ok"
+            android:textColor="@color/white" />
+
+       
+    </RelativeLayout>
+
+</ScrollView>

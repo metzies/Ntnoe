@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_back"
+        android:icon="@drawable/ic_prev"
+        android:showAsAction="always"
+        android:title="@string/action_previous"/>
+    <item
+        android:id="@+id/action_next"
+        android:icon="@drawable/ic_next"
+        android:showAsAction="always"
+        android:title="@string/action_next"/>
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="always"
+        android:title="@string/action_overflow">
+        <menu>
+            <item
+                android:id="@+id/action_login"
+                android:icon="@drawable/user"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="@string/action_sign_in_short"/>
+            <item
+                android:id="@+id/action_update"
+                android:icon="@drawable/maj"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="@string/action_update"/>
+            <item
+                android:id="@+id/action_settings_activity"
+                android:icon="@drawable/settings"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="@string/action_others_activity"/>
+        </menu>
+    </item>
+
+</menu>

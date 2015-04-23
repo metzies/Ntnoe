@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.metzies.ntnoe.app.LangClasses" >
+
+    <item
+        android:id="@+id/action_lang_classes_delete_crenos"
+        android:showAsAction="always"
+        android:icon="@drawable/trash"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_lang_classes_setChanges"
+        android:icon="@drawable/action_done"
+        android:showAsAction="always"
+        android:title="@string/action_done"/>
+
+</menu>

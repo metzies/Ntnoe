@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewed_month"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="7" >
+
+        <TextView
+            android:id="@+id/week_strip_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2sp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginRight="14sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/sun"
+            android:textColor="@color/near_white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/week_strip_mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2sp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginRight="14sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/mon"
+            android:textColor="@color/near_white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/week_strip_tue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2sp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginRight="14sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tues"
+            android:textColor="@color/near_white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/week_strip_wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2sp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginRight="14sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/wednes"
+            android:textColor="@color/near_white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/week_strip_thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2sp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginRight="14sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/thurs"
+            android:textColor="@color/near_white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/week_strip_fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2sp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginRight="14sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/fri"
+            android:textColor="@color/near_white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/week_strip_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2sp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginRight="14sp"
+            android:layout_marginTop="2sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/satur"
+            android:textColor="@color/near_white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="7"
+        android:stretchMode="columnWidth" >
+    </GridView>
+
+    <View
+        android:id="@+id/white_filler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+</LinearLayout>

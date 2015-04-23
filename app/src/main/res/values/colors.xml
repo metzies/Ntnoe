@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="lighter_red">#c77e7e</color>
+    <color name="light_blue">#81a3d0</color>
+    <color name="light_red">#e68282</color>
+    <color name="dark_blue">#30537f</color>
+    <color name="dark_grey">#373737</color>
+    <color name="darker_grey">#252525</color>
+    <color name="grey">#555555</color>
+    <color name="now_grey">#313131</color>
+    <color name="light_grey">#b5b5b5</color>
+    <color name="separator">#94b1d7</color>
+    <color name="white">#fafafa</color>
+    <color name="near_white">#f5f5f8</color>
+    <color name="far_white">#f0f0fc</color>
+    <color name="schedule_blue">#a0e0ff</color>
+    <color name="schedule_brown">#be9635</color>
+    <color name="schedule_green">#72d164</color>
+    <color name="schedule_grey">#cacaca</color>
+    <color name="schedule_orange">#ffcb4e</color>
+    <color name="schedule_red">#ff6969</color>
+    <color name="schedule_violet">#d4b2ff</color>
+
+</resources>

@@ -1,0 +1,179 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:onClick="showhiddenmessage"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.metzies.ntnoe.About$PlaceholderFragment" >
+
+        <TextView
+            android:id="@+id/app_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32sp"
+            android:gravity="center"
+            android:text="@string/app_version"
+            android:textColor="@color/dark_blue"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/metzies_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_version"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8sp"
+            android:gravity="center"
+            android:text="@string/metzies_names"
+            android:textColor="@color/grey"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/metzies_campus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/metzies_names"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4sp"
+            android:gravity="center"
+            android:text="@string/metzies_campus"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/metzies_promo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/metzies_campus"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4sp"
+            android:gravity="center"
+            android:text="@string/metzies_promo"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/privacy_policy_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/metzies_promo"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="24sp"
+            android:gravity="left"
+            android:text="@string/privacy_policy"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/privacy_policy_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/privacy_policy_title"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="4sp"
+            android:gravity="left"
+            android:text="@+string/privacy_policy_text"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/disclamer_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/privacy_policy_text"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="24sp"
+            android:gravity="left"
+            android:text="@string/disclaimer_title"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/disclamer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/disclamer_title"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="4sp"
+            android:gravity="left"
+            android:text="@+string/disclaimer_text"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/suggestions_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/disclamer_text"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="24sp"
+            android:gravity="left"
+            android:text="@string/suggestions_title"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/suggestion_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/suggestions_title"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="4sp"
+            android:background="@null"
+            android:contentDescription="@string/email"
+            android:onClick="suggestionSend"
+            android:src="@drawable/mail" />
+
+        <TextView
+            android:id="@+id/suggestions_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/suggestions_title"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="4sp"
+            android:layout_toRightOf="@id/suggestion_button"
+            android:text="@string/suggestions_text"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/thanks_to_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/suggestions_text"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="24sp"
+            android:gravity="left"
+            android:text="@string/thanks_to_title"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/thanks_to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thanks_to_title"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="4sp"
+            android:gravity="left"
+            android:text="@+string/thanks_to"
+            android:textColor="@color/grey"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</ScrollView>

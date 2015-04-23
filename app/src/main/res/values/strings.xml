@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NTNOE</string>
+    <string name="app_version">NTNOE v2.0.7</string>
+    <string name="ok">OK</string>
+    <string name="action_settings">Se déconnecter</string>
+    <string name="signup_login_nompre">nom_pre</string>
+    <string name="signup_password">Mot de passe</string>
+    <string name="signup_next">Suivant</string>
+    <string name="title_activity_langues">Langues</string>
+    <string name="title_activity_edt">Ntnoé</string>
+    <string name="title_section1">Lundi</string>
+    <string name="title_section2">Mardi</string>
+    <string name="title_section3">Mercredi</string>
+    <string name="title_section4">Jeudi</string>
+    <string name="title_section5">Vendredi</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sendICS">Partager EDT</string>
+    <string name="folder">Dossier</string>
+    <string name="file_size">Taille</string>
+    <string name="action_update">Mettre à jour</string>
+    <string name="action_others_activity">Autres</string>
+    <string name="action_next">Semaine suivante</string>
+    <string name="action_sevent">Evènement</string>
+    <string name="wait">Veuillez patienter&#8230;</string>
+    <string name="sevent_date">Date</string>
+    <string name="sevent_duration">Durée</string>
+    <string name="action_previous">Semaine précédente</string>
+    <string name="action_about">A propos</string>
+    <string name="sevent_description">Ajouter un évènement ponctuel dans votre emploi de temps</string>
+    <string name="title_activity_about">About</string>
+    <string name="metzies_names">Pierre-Yves Bigourdan &amp; Kayssar Daher</string>
+    <string name="metzies_campus">Supélec - Campus de Metz</string>
+    <string name="metzies_promo">Promo 2016</string>
+    <string name="title_activity_file_chooser">FileChooser</string>
+    <string name="action_crenos">Créneaux</string>
+    <string name="action_overflow">Options</string>
+    <string name="disclaimer_title">Clause de non responsabilité</string>
+    <string name="disclaimer_text">Cette application a été réalisée hors du champ de responsabilité de l\'administration de Supélec. Nous ne représentons ni l\'administration ni le personnel de l\'Ecole. Nous fournissons l\'application telle quelle et ne sommes pas responsables d\'éventuels dysfonctionnements ou erreurs.</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="privacy_policy_text">Les identifiants et mots de passe saisis dans cette application ne sont transmis à aucune tierce personne (développeurs inclus)</string>
+    <string name="title_activity_attente">Attente</string>
+    <string name="hiddentext">Cette appli vous est présentée par les Metzies!</string>
+    <string name="funcs_title">Fonctionnalités</string>
+    <string name="funcs_crenos">Créneaux</string>
+    <string name="funcs_crenos_text">Refaire tous les créneaux de langues</string>
+    <string name="funcs_share">Partager EDT</string>
+    <string name="funcs_share_text">Partager le fichier .ics non traité (donc sans vos créneaux). Option prévue pour dépanner un ami</string>
+    <string name="funcs_maj">Mettre à jour</string>
+    <string name="funcs_maj_text">Mettre à jour l\'emploi de temps en gardant vos créneaux personnels. Attention, la MàJ n\'est pas automatique, mais à faire grâce à cette fonctionnalité. Ceci permet d\'économiser des ressources</string>
+    <string name="funcs_about">A propos</string>
+    <string name="funcs_about_text">Vous y êtes déjà!</string>
+    <string name="debugging_title">Déboguage</string>
+    <string name="thanks_to">Les développeurs remercient Mme. Virginie Galtier, M. Patrick Mercier et M. Gabriel Pichot pour leur contribution à l\'avancement du projet.</string>
+    <string name="title_activity_single_event">SingleEvent</string>
+    <string name="thanks_to_title">Remerciements</string>
+    <string name="sevent_time_start">Début</string>
+    <string name="sevent_time_end">Fin</string>
+    <string name="sevent_title">Intitulé</string>
+    <string name="sevent_location">Lieu</string>
+    <string name="funcs_sevent">Evènement</string>
+    <string name="funcs_sevent_text">Ajouter un évènement ponctuel à votre emploi de temps</string>
+    <string name="profoupas">Je suis un prof</string>
+    <string name="title_activity_month">NTNOE</string>
+    <string name="empty_day">Rien ce jour là !</string>
+    <string name="monday">Lundi</string>
+    <string name="tuesday">Mardi</string>
+    <string name="wednesday">Mercredi</string>
+    <string name="thursday">Jeudi</string>
+    <string name="friday">Vendredi</string>
+    <string name="saturday">Samedi</string>
+    <string name="sunday">Dimanche</string>
+    <string name="title_activity_calendar_view">CalendarView</string>
+    <string name="email_hidden">J\'ai trouvé la page cachée! #hax</string>
+    <string name="title_activity_week_view">WeekView</string>
+    <string name="_monday">LUNDI</string>
+    <string name="_tuesday">MARDI</string>
+    <string name="_wednesday">MERCREDI</string>
+    <string name="_thursday">JEUDI</string>
+    <string name="_friday">VENDREDI</string>
+    <string name="_saturday">SAMEDI</string>
+    <string name="_sunday">DIMANCHE</string>
+    <string name="share_with">Partager avec</string>
+    <string name="could_not_send_suggestion">Envoi impossible</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="suggestions_title">Suggestions et Déboguage</string>
+    <string name="suggestions_text">Vous avez des suggestions? Trouvé un bug? Contactez-nous! Par contre, si vous avez trouvé un bug, joignez logcats et screenshots. Allez, appuyez sur le bouton</string>
+    <string name="funcs_views">Vues</string>
+    <string name="funcs_views_text">Vous disposez de 3 différentes vues pour accéder à votre emploi de temps : le jour, la semaine en basculant votre téléphone en mode paysage, et le mois en appuyant sur la date, en haut à gauche</string>
+    <string name="nothing_todo_today">Rien ce jour-ci</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="settings_gotolangues">Créneaux</string>
+    <string name="settings_sendics">Partager son emploi de temps</string>
+    <string name="set_time_start">Choisir l\'heure de début</string>
+    <string name="set_time_end">Choisir l\'heure de fin</string>
+    <string name="clear_all_langs">Supprimer tous les créneaux de langues</string>
+    <string name="title_activity_lang_classes">LangClasses</string>
+    <string name="action_done">Valider</string>
+    <string name="add_lang">+Langue</string>
+    <string name="add_sport">+Sport</string>
+    <string name="add_sevent">Ajouter un évènement</string>
+    <string name="delete">Supprimer</string>
+    <string name="sevent_list_description">Vos évènements</string>
+    <string name="email">Email</string>
+
+    <string-array name="spinner_langs">
+        <item>Langue&#8230;</item>
+        <item>Anglais</item>
+        <item>Espagnol</item>
+        <item>Allemand</item>
+        <item>Chinois</item>
+        <item>Japonais</item>
+        <item>Arabe</item>
+        <item>Russe</item>
+        <item>Autre langue</item>
+    </string-array>
+    <string-array name="spinner_sports">
+        <item>Sport&#8230;</item>
+        <item>Football</item>
+        <item>Basketball</item>
+        <item>Handball</item>
+        <item>Rugby</item>
+        <item>Badminton</item>
+        <item>Karate</item>
+        <item>Aviron</item>
+        <item>Escalade</item>
+        <item>Autre sport</item>
+    </string-array>
+    <string-array name="spinner_sports_crenos">
+        <item>Créneau&#8230;</item>
+        <item>Lu 18h00–19h00</item>
+        <item>Lu 19h00–20h00</item>
+        <item>Lu 20h00–21h00</item>
+        <item>Lu 21h00–22h00</item>
+        <item>Ma 18h00–19h00</item>
+        <item>Ma 19h00–20h00</item>
+        <item>Ma 20h00–21h00</item>
+        <item>Ma 21h00–22h00</item>
+        <item>Me 18h00–19h00</item>
+        <item>Me 19h00–20h00</item>
+        <item>Me 20h00–21h00</item>
+        <item>Me 21h00–22h00</item>
+        <item>Je 18h00–19h00</item>
+        <item>Je 19h00–20h00</item>
+        <item>Je 20h00–21h00</item>
+        <item>Je 21h00–22h00</item>
+    </string-array>
+    <string-array name="spinner_langs_crenos">
+        <item>Créneau&#8230;</item>
+        <item>Lu 13h30–15h00</item>
+        <item>Lu 15h15–16h45</item>
+        <item>Lu 16h45–18h15</item>
+        <item>Lu 18h30–20h00</item>
+        <item>Ma 13h30–15h00</item>
+        <item>Ma 15h15–16h45</item>
+        <item>Ma 16h45–18h15</item>
+        <item>Ma 18h30–20h00</item>
+        <item>Me 8h30–10h00</item>
+        <item>Me 10h30–12h00</item>
+        <item>Je 13h30–15h00</item>
+        <item>Je 15h15–16h45</item>
+        <item>Je 16h45–18h15</item>
+        <item>Je 18h30–20h00</item>
+    </string-array>
+    <string-array name="spinner_sequences">
+        <item>Séquence&#8230;</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="mon">Lu</string>
+    <string name="tues">Ma</string>
+    <string name="wednes">Me</string>
+    <string name="thurs">Je</string>
+    <string name="fri">Ve</string>
+    <string name="satur">Sa</string>
+    <string name="sun">Di</string>
+
+</resources>

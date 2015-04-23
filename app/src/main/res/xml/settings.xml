@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen
+        android:icon="@drawable/langues_grey"
+        android:key="gotolangues"
+        android:summary="@string/funcs_crenos_text"
+        android:title="@string/settings_gotolangues" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/sevent_grey"
+        android:key="gotosevents"
+        android:summary="@string/funcs_sevent_text"
+        android:title="@string/funcs_sevent" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/share_grey"
+        android:key="shareEDT"
+        android:summary="@string/settings_sendics"
+        android:title="@string/action_sendICS" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/about_grey"
+        android:key="gotoabout"
+        android:title="@string/action_about" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:icon="@drawable/logout_grey"
+        android:key="disconnect"
+        android:title="@string/action_settings" >
+    </PreferenceScreen>
+
+</PreferenceScreen>
