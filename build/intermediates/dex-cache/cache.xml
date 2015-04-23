@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/kacer/Documents/Ntnoe/app/libs/commons-codec-1.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="af3be3f74d25fc5163b54f56a0d394b462dafafd">
+        <dex dex="/home/kacer/Documents/Ntnoe/app/build/intermediates/pre-dexed/debug/commons-codec-1.8-f2c8ee1db469578af4e2b01641c48d1cca96967d.jar" />
+    </item>
+    <item
+        jar="/home/kacer/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/kacer/Documents/Ntnoe/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-fd49cfd911758474459e49394ab5dc6b5953a48a.jar" />
+    </item>
+    <item
+        jar="/home/kacer/Documents/Ntnoe/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/kacer/Documents/Ntnoe/app/build/intermediates/pre-dexed/debug/classes-f48a9cf43c3726fce4de853e864f65ad9b022df5.jar" />
+    </item>
+    <item
+        jar="/home/kacer/Documents/Ntnoe/app/libs/ical4j-1.0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7c2ddc98bda6e0838cca0129fda095a716a7d9dd">
+        <dex dex="/home/kacer/Documents/Ntnoe/app/build/intermediates/pre-dexed/debug/ical4j-1.0.5-dd90122a48976432b1ca0b5110f6a78e0c0ae5c5.jar" />
+    </item>
+    <item
+        jar="/home/kacer/Documents/Ntnoe/app/libs/commons-lang-2.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="/home/kacer/Documents/Ntnoe/app/build/intermediates/pre-dexed/debug/commons-lang-2.6-62a0533a6dfd30ecc74ec37c6036561fa4f139ef.jar" />
+    </item>
+    <item
+        jar="/home/kacer/Documents/Ntnoe/app/libs/backport-util-concurrent-3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="682f7ac17fed79e92f8e87d8455192b63376347b">
+        <dex dex="/home/kacer/Documents/Ntnoe/app/build/intermediates/pre-dexed/debug/backport-util-concurrent-3.1-e5473286728415af853f32c928d2d6ac40f327d3.jar" />
+    </item>
+    <item
+        jar="/home/kacer/Documents/Ntnoe/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/kacer/Documents/Ntnoe/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-7f1e97c3375b06df340abbfe560c3a22116193a1.jar" />
+    </item>
+
+</items>
