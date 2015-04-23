@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">NTNOE</string>
-    <string name="app_version">NTNOE v2.0.7</string>
+    <string name="app_version">NTNOE v2.0.8</string>
     <string name="ok">OK</string>
     <string name="action_settings">Se déconnecter</string>
     <string name="signup_login_nompre">nom_pre</string>
